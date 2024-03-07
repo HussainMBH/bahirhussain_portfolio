@@ -580,35 +580,7 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- JavaScript libraries -->
-    <script>// Function to zoom in on the image when mouse hovers over it
-        document.getElementById('chatroom-image').addEventListener('mouseover', function() {
-            this.style.transform = 'scale(1.1)';
-        });
-        
-        // Function to zoom out when mouse leaves the image
-        document.getElementById('chatroom-image').addEventListener('mouseout', function() {
-            this.style.transform = 'scale(1)';
-        });
-        
-        // Function to open image in a zoomed view on click
-        document.getElementById('chatroom-image').addEventListener('click', function() {
-            var zoomedImageContainer = document.getElementById('zoomed-image-container');
-            var zoomedImage = document.createElement('img');
-            zoomedImage.src = this.src;
-            zoomedImageContainer.innerHTML = ''; // Clear previous image
-            zoomedImageContainer.appendChild(zoomedImage);
-            zoomedImageContainer.style.display = 'block';
-        });
-        
-        // Function to close the zoomed view when clicking outside the image
-        document.addEventListener('click', function(event) {
-            var zoomedImageContainer = document.getElementById('zoomed-image-container');
-            if (event.target !== zoomedImageContainer && !zoomedImageContainer.contains(event.target)) {
-                zoomedImageContainer.style.display = 'none';
-            }
-        });
-    </script>
+    
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
