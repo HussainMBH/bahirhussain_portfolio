@@ -218,7 +218,27 @@
     margin-right: -30px;
 }
 
+/*** Zoom Picture ***/
+ /* Styling for zoom effect */
+#chatroom-image {
+    transition: transform 0.2s;
+}
 
+/* Styling for view options */
+#zoomed-image-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: none;
+}
+
+#zoomed-image-container img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 /*** Skills ***/
 #skill .progress {
     height: 5px;

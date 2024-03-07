@@ -8,6 +8,13 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -84,6 +91,13 @@
                             <span></span>
                         </button>
                         <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    </div>
+                    
+                    <div class="d-flex pt-4">
+                        <!-- Make sure links point to the correct social media profiles -->
+                        <a class="btn btn-square btn-primary me-4" href="https://github.com/HussainMBH"><i class="bi bi-github"></i></a>
+                        <a class="btn btn-square btn-primary me-4" href="https://www.linkedin.com/in/mohamed-bahir-hussain-73a58420b"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -348,73 +362,98 @@
                     </ul>
                 </div>
             </div>
-        <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/chatspringboot.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Chatroom System</p>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <a href="img/chatspringboot.PNG" data-lightbox="portfolio" data-title="Chatroom System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/chatspringboot.PNG" alt="" id="chatroom-image">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Chatroom System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <a href="img/chatimg3.png" data-lightbox="portfolio" data-title="Chat System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/chatimg3.png" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Chat System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <a href="img/teethconsole.PNG" data-lightbox="portfolio" data-title="Teeth Cleaning System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/teethconsole.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Teeth Cleaning System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <a href="img/taxibooking.PNG" data-lightbox="portfolio" data-title="Taxi Booking System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/taxibooking.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Taxi Booking System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <a href="img/railwayticket.PNG" data-lightbox="portfolio" data-title="Train Ticket Booking System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/railwayticket.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Train Ticket Booking System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <a href="img/flightticket.PNG" data-lightbox="portfolio" data-title="Flight Ticket Booking System">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/flightticket.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Flight Ticket Booking System</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <a href="img/flightticket.PNG" data-lightbox="portfolio" data-title="ATM Cash Withdrawal">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/flightticket.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">ATM Cash Withdrawal</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <a href="img/naascampus.PNG" data-lightbox="portfolio" data-title="NAAS Campus Website">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/naascampus.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">NAAS Campus Website</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <a href="img/flightad.PNG" data-lightbox="portfolio" data-title="Raythos Aerospace Website">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/flightad.PNG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Raythos Aerospace Website</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <a href="img/dashboard.JPG" data-lightbox="portfolio" data-title="Workflow System Website">
+                        <div class="rounded overflow-hidden">
+                            <img class="img-fluid" src="img/dashboard.JPG" alt="">
+                            <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Workflow System Website</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="https://b2461891.smushcdn.com/2461891/wp-content/uploads/2021/10/HM-05-data-workload-scaled.webp?lossy=1&strip=1&webp=1" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Hospital Management System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/chatimg3.png" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Chat System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/teethconsole.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Teeth Cleaninc System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/taxibooking.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Taxi Booking System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/railwayticket.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Train Ticket Booking System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/flightticket.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Flight Ticket Booking System</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/flightticket.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">ATM Cash Withdrawal</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item second">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/naascampus.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">NAAS Campus Website</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item second">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/flightad.PNG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Raythos Aerospace Website</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item second">
-                <div class=" rounded overflow-hidden">
-                    <img class="img-fluid" src="img/dashboard.JPG" alt="">
-                    <p style="text-align: center; font-size: larger; font-weight: bolder; font-style: oblique; color: rgb(0, 0, 0);">Workflow System Website</p>
-                </div>
-            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+            
+
+            
+        </div>
+        <div id="imageModal" class="modal">
+            <span class="close"> </span>
+            <img class="modal-content" id="img01">
         </div>
     </div>
 </div>
@@ -540,6 +579,36 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- JavaScript libraries -->
+    <script>// Function to zoom in on the image when mouse hovers over it
+        document.getElementById('chatroom-image').addEventListener('mouseover', function() {
+            this.style.transform = 'scale(1.1)';
+        });
+        
+        // Function to zoom out when mouse leaves the image
+        document.getElementById('chatroom-image').addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)';
+        });
+        
+        // Function to open image in a zoomed view on click
+        document.getElementById('chatroom-image').addEventListener('click', function() {
+            var zoomedImageContainer = document.getElementById('zoomed-image-container');
+            var zoomedImage = document.createElement('img');
+            zoomedImage.src = this.src;
+            zoomedImageContainer.innerHTML = ''; // Clear previous image
+            zoomedImageContainer.appendChild(zoomedImage);
+            zoomedImageContainer.style.display = 'block';
+        });
+        
+        // Function to close the zoomed view when clicking outside the image
+        document.addEventListener('click', function(event) {
+            var zoomedImageContainer = document.getElementById('zoomed-image-container');
+            if (event.target !== zoomedImageContainer && !zoomedImageContainer.contains(event.target)) {
+                zoomedImageContainer.style.display = 'none';
+            }
+        });
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
